@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Estação de jogos</string>
+    <string name="nome">AAA</string>
+    <string name="record">0000</string>
+    <string name="ranking">Ranking</string>
+    <string name="posição_1">1</string>
+    <string name="posição_2">2</string>
+    <string name="posição_3">3</string>
+    <string name="posição_4">4</string>
+    <string name="posição_5">5</string>
+    <string name="posição_6">6</string>
+    <string name="posição_7">7</string>
+    <string name="posição_8">8</string>
+</resources>
