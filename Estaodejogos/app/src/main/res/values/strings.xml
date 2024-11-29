@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Estação de jogos</string>
+    <string name="nome">AAA</string>
+    <string name="record">0000</string>
+    <string name="ranking">Ranking</string>
+    <string name="posição_1">1</string>
+    <string name="posição_2">2</string>
+    <string name="posição_3">3</string>
+    <string name="posição_4">4</string>
+    <string name="posição_5">5</string>
+    <string name="posição_6">6</string>
+    <string name="posição_7">7</string>
+    <string name="posição_8">8</string>
+    <string name="Exluir_record">Excluir recorde</string>
+    <string name="Alterar_nome">Alterar nome</string>
+    <string name="jogoTitulo">Jogo não finalizado</string>
+    <string name="Digitar_nome">Nome</string>
+    <string name="Digitar_record">Record</string>
+    <string name="enviar">Enviar</string>
+    <string name="Login">Login</string>
+    <string name="Senha">Senha</string>
+    <string name="Cadastro">Cadastro</string>
+    <string name="todo">imagem</string>
+    <string name="status">#status</string>
+    <string name="excluir_dados">Excluir</string>
+    <string name="Alterar">Alterar</string>
 </resources>

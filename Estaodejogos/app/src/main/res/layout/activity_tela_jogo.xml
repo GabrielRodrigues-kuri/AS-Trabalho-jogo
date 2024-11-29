@@ -41,38 +41,37 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:layout_marginTop="10px"
+            android:orientation="vertical">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center"
                 android:fontFamily="@font/dogicapixel"
-                android:textSize="40dp"
-                android:text="@string/Cadastro"/>
+                android:textSize="20dp"
+                android:text="@string/jogoTitulo"
+                />
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="17dp"
-                    android:fontFamily="@font/dogicapixel"
-                    android:text="@string/Digitar_nome" />
-
+                android:orientation="horizontal" >
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="17dp"
+                     android:fontFamily="@font/dogicapixel"
+                     android:text="@string/Digitar_nome" />
                 <EditText
-                    android:id="@+id/login_nome"
+                    android:id="@+id/usu_nome"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:fontFamily="@font/dogicapixel"
                     android:hint="@string/Digitar_nome"
+                    android:textColor="#E0C432"
                     android:importantForAutofill="no"
                     android:inputType="text"
-                    android:textColor="#E0C432"
-                    tools:ignore="TouchTargetSizeCheck" />
+                    android:minHeight="48dp"
+                    />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -83,18 +82,19 @@
                     android:layout_height="wrap_content"
                     android:textSize="17dp"
                     android:fontFamily="@font/dogicapixel"
-                    android:text="@string/Senha" />
+                    android:text="@string/Digitar_record" />
                 <EditText
-                    android:id="@+id/login_senha"
+                    android:id="@+id/usu_record"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:fontFamily="@font/dogicapixel"
-                    android:hint="@string/Senha"
+                    android:hint="@string/Digitar_record"
                     android:textColor="#E0C432"
                     android:importantForAutofill="no"
-                    android:inputType="numberPassword"
-                    android:minHeight="48dp"/>
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    />
             </LinearLayout>
             <Button
                 android:layout_width="wrap_content"
@@ -104,5 +104,4 @@
                 android:text="@string/enviar"/>
         </LinearLayout>
     </RelativeLayout>
-
 </LinearLayout>

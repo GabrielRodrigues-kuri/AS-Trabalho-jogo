@@ -13,7 +13,22 @@
         android:theme="@style/Theme.EstaçãoDeJogos"
         tools:targetApi="31">
         <activity
+            android:name=".Alterar_nome"
+            android:exported="false" />
+        <activity
+            android:name=".Excluir_record"
+            android:exported="false" />
+        <activity
+            android:name=".Ranking"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".Jogo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
